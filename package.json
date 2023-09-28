@@ -1,0 +1,18 @@
+{
+  "name": "workflows",
+  "version": "1.0.0",
+  "description": "Enes Sertkan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "main": "node index.js"
+
+  },
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/enes-sertkan/COMP3104.git"
+},
+  "keywords": ["devops", "nodejs", "express", "web"],
+  "author": "Enes Sertkan 101403883",
+  "license": "ISC"
+}
