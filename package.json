@@ -7,13 +7,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "https://github.com/enes-sertkan/COMP3104.git"
-},
-  "keywords": ["devops", "nodejs", "express", "web"],
+  },
+  "keywords": [
+    "devops",
+    "nodejs",
+    "express",
+    "web"
+  ],
   "author": "Enes Sertkan 101403883",
   "license": "ISC",
   "dependencies": {
@@ -42,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
